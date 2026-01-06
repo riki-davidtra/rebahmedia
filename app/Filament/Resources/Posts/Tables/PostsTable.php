@@ -34,7 +34,7 @@ class PostsTable
                     ->disk('public')
                     ->imageWidth(50)
                     ->imageHeight(50)
-                    ->defaultImageUrl(asset('assets/images/image-thumbnail.jpg')),
+                    ->defaultImageUrl(asset('assets/images/no-image.jpg')),
                 TextColumn::make('title')
                     ->label('Title')
                     ->limit(50)
